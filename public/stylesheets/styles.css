@@ -1,0 +1,99 @@
+body {
+	overflow-x: hidden;
+}
+
+img {
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.main {
+	left: 0;
+	top: 0;
+	width: 425px;
+	height: 120px;
+	background-color: #000000;
+}
+
+.image {
+	background-image: url("http://i61.tinypic.com/2mg7csh.png");
+    width: 300px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.parallax {
+	margin-top: 350px;
+	height: 800px;
+	position: relative;
+	background-color: white;
+}
+
+.one {
+	background-color: #000000;
+}
+
+.bg-primary {
+	height: 700px;
+}
+
+@media (min-width: 900px) and (max-width:1300px) {
+	
+	img {
+		border-radius: 50px;
+		width: 100px;
+		height: 100px;
+		margin-top: 20px;
+		margin-left: 580px;
+	}
+
+	h1 {
+		margin: 0px;
+	}
+
+	.main {
+		left: 0;
+		top: 0;
+		width: 1280px;
+		height: 650px;
+		background-color: #000000;
+	}
+
+	.image {
+		background-image: url("http://i61.tinypic.com/2mg7csh.png");
+	    width: 1280px;
+	    height: 350px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    z-index: 1;
+	}
+
+	.parallax {
+		margin-top: 700px;
+		height: 800px;
+		width: 1280px;
+		position: relative;
+		background-color: white;
+	}
+
+	.one {
+		background-color: white;
+	}
+
+	[role~=button] {
+		margin-left: 530px;
+		margin-bottom: 500px;
+	}
+}
+
+
+
+/*Skyline: http://i61.tinypic.com/2mg7csh.png*/
+/*Lap2: http://i60.tinypic.com/kd9w69.png*/
+/*Lap: http://i59.tinypic.com/ok8i6b.png*/
+/*FirsLap: http://i58.tinypic.com/2uztpmq.png*/
