@@ -7,7 +7,23 @@ img {
 	width: 80px;
 	height: 80px;
 	margin-top: 20px;
-	margin-left: 100px;
+	margin-left: 155px;
+}
+
+h3 {
+	border-bottom: solid;
+	border-color: #C2F0F0;
+	border-radius: 2px;
+	padding-right: 2px;
+}
+
+label {
+	margin-left: 85px;
+}
+
+#inputEmail, #inputPassword, #inputMEssage, .submit {
+	margin-left: 80px;
+	width: 250px;
 }
 
 .main {
@@ -27,6 +43,15 @@ img {
     z-index: 1;
 }
 
+.btns {
+	margin-left: 53px;
+	margin-right: 10px;
+}
+
+.btn-info {
+	margin-right: 5px;
+}
+
 .parallax {
 	margin-top: 350px;
 	height: 800px;
@@ -38,12 +63,79 @@ img {
 	background-color: #000000;
 }
 
-.bg-primary {
+.two{
+	background-color: white;
+}
+
+.abt {
+	height: 360px;
+	position: relative;
+	left: 2px;
+	right: 0px;
+	top: 0px;
+}
+
+.se {
+	height: 360px;
+	position: relative;
+	left: 2px;
+	right: 0px;
+	top: 0px;
+}
+
+.p {
+	height: 1440px;
+	position: relative;
+	left: 17px;
+	right: 0px;
+	top: 720px;
+	background-color: red;
+}
+
+.p1 {
+	height: 360px;
+	position: relative;
+	top: -720px;
+	bottom: 80px;
+}
+
+.p2 {
+	height: 360px;
+	position: relative;
+	top: -720px;
+	bottom: 80px;
+}
+
+.p3 {
+	height: 360px;
+	position: relative;
+	top: -720px;
+	bottom: 80px;
+}
+
+.p4 {
+	height: 360px;
+	position: relative;
+	top: -720px;
+	bottom: 100px;
+}
+
+.bg-con {
 	height: 700px;
+	width: 414px;
+	position: relative;
+	top: 5px;
+	background-color: black;
+}
+
+.progress {
+	top: 0px;
+	width: 414px;
+	z-index: 1;
 }
 
 @media (min-width: 900px) and (max-width:1300px) {
-	
+ /*and (min-height: 700px) and (max-height:2000px) */
 	img {
 		border-radius: 50px;
 		width: 100px;
@@ -54,6 +146,35 @@ img {
 
 	h1 {
 		margin: 0px;
+	}
+
+	label {
+		margin-left: 435px;
+		color: white;
+	}
+
+	#inputName, #inputEmail, #inputSubject, #inputMessage, .submit {
+		/*top:;*/
+		margin-left: 450px;
+		width: 400px;
+		border-radius: 5px;
+		border-style: solid;
+	}
+
+	#inputMessage {
+		height: 150px;
+	}
+
+	#follow {
+		float: left;
+		color: white;
+	}
+
+	#email {
+		float: right;
+		margin-right: 500px;
+		width: 200px;
+		color: white;
 	}
 
 	.main {
@@ -74,8 +195,8 @@ img {
 	}
 
 	.parallax {
-		margin-top: 700px;
-		height: 800px;
+		margin-bottom: -550px;
+		height: 1700px;
 		width: 1280px;
 		position: relative;
 		background-color: white;
@@ -85,9 +206,74 @@ img {
 		background-color: white;
 	}
 
+	.abt {
+		height: 400px;
+		position: relative;
+		left: 75px;
+		right: 125px;
+		top: 20px;
+	}
+
+	.se {
+		height: 400px;
+		position: relative;
+		left: 75px;
+		right: 125px;
+		top: 40px;
+	}
+
+	.p {
+		height: 1825px;
+		position: relative;
+		left: 90px;
+		right: 110px;
+		top: 860px;
+		background-color: red;
+	}
+
+	.p1 {
+		height: 450px;
+		position: relative;
+		top: -795px;
+		bottom: 80px;
+	}
+
+	.p2 {
+		position: relative;
+		height: 450px;
+		top: -790px;
+		bottom: 80px;
+	}
+
+	.p3 {
+		position: relative;
+		height: 450px;
+		top: -785px;
+		bottom: 80px;
+	}
+
+	.p4 {
+		position: relative;
+		height: 450px;
+		top: -780px;
+		bottom: 100px;
+	}
+
+	.bg-con {
+		height: 500px;
+		position: relative;
+		top: 105px;
+		background-color: black;
+	}
+
+	.progress {
+		top: 110px;
+		z-index: 1;
+	}
+
 	[role~=button] {
-		margin-left: 530px;
-		margin-bottom: 500px;
+		margin-left: 460px;
+		margin-bottom: 5px;
 	}
 }
 
