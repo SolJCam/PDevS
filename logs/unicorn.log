@@ -1,0 +1,15 @@
+I, [2015-06-19T10:35:31.287988 #27878]  INFO -- : listening on addr=/tmp/unicorn.myapp.sock fd=8
+I, [2015-06-19T10:35:31.288402 #27878]  INFO -- : worker=0 spawning...
+I, [2015-06-19T10:35:31.292112 #27878]  INFO -- : worker=1 spawning...
+I, [2015-06-19T10:35:31.292771 #27878]  INFO -- : master process ready
+I, [2015-06-19T10:35:31.300455 #27881]  INFO -- : worker=0 spawned pid=27881
+I, [2015-06-19T10:35:31.300677 #27881]  INFO -- : Refreshing Gem list
+I, [2015-06-19T10:35:31.309556 #27883]  INFO -- : worker=1 spawned pid=27883
+I, [2015-06-19T10:35:31.309783 #27883]  INFO -- : Refreshing Gem list
+I, [2015-06-19T10:35:32.221599 #27883]  INFO -- : worker=1 ready
+I, [2015-06-19T10:35:32.222489 #27881]  INFO -- : worker=0 ready
+47.16.244.217 - - [19/Jun/2015:10:36:57 -0400] "GET / HTTP/1.0" 200 3581 0.0353
+47.16.244.217 - - [19/Jun/2015:10:36:57 -0400] "GET /stylesheets/styles.css HTTP/1.0" 200 3725 0.0507
+47.16.244.217 - - [19/Jun/2015:10:36:57 -0400] "GET /scripts/main.js HTTP/1.0" 200 963 0.0029
+47.16.244.217 - - [19/Jun/2015:10:36:58 -0400] "GET /favicon.ico HTTP/1.0" 404 452 0.0042
+47.16.244.217 - - [19/Jun/2015:10:38:01 -0400] "GET / HTTP/1.0" 200 3581 0.0043
