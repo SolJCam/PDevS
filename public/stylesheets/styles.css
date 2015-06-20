@@ -1,29 +1,27 @@
 body {
 	overflow-x: hidden;
-}
-
-img {
-	border-radius: 50px;
-	width: 80px;
-	height: 80px;
-	margin-top: 20px;
-	margin-left: 155px;
-}
-
-h3 {
-	border-bottom: solid;
-	border-color: #C2F0F0;
-	border-radius: 2px;
-	padding-right: 2px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: black;
 }
 
 label {
 	margin-left: 85px;
 }
 
+ul {
+   list-style-image: url('https://confluence.atlassian.com/s/en_GB/5790/c0d7e4b471d38961c3c7bcb02ff39a610accca23.27/_/images/icons/emoticons/star_yellow.png');
+}
+
 #inputEmail, #inputPassword, #inputMEssage, .submit {
 	margin-left: 80px;
 	width: 250px;
+}
+
+.me {
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	margin-left: 175px;
 }
 
 .main {
@@ -36,8 +34,8 @@ label {
 
 .image {
 	background-image: url("http://i61.tinypic.com/2mg7csh.png");
-    width: 300px;
-    height: 100px;
+    width: 380px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -67,6 +65,15 @@ label {
 	background-color: white;
 }
 
+
+
+.nav-titles {
+	border-bottom: solid;
+	border-color: black;
+	border-width: 1px;
+	padding-right: 2px;
+}
+
 .abt {
 	height: 360px;
 	position: relative;
@@ -78,9 +85,8 @@ label {
 .se {
 	height: 360px;
 	position: relative;
-	left: 2px;
-	right: 0px;
-	top: 0px;
+	margin: 0px;
+	top: 30px;
 }
 
 .p {
@@ -88,8 +94,8 @@ label {
 	position: relative;
 	left: 17px;
 	right: 0px;
-	top: 720px;
-	background-color: red;
+	top: 800px;
+	/*background-color: red;*/
 }
 
 .p1 {
@@ -134,15 +140,29 @@ label {
 	z-index: 1;
 }
 
+.propics {
+	display:inline-block;
+}
+
+.pic {
+	width: 125px;
+	height: 175px;
+	margin-left: 30px;
+}
+
+.git {
+	height: 47px;
+	width: 50px;
+	position: relative;
+	float: right;
+	border-bottom: solid;
+	border-color: black;
+	border-width: 1px;
+	bottom: 57px;
+}
+
 @media (min-width: 900px) and (max-width:1300px) {
  /*and (min-height: 700px) and (max-height:2000px) */
-	img {
-		border-radius: 50px;
-		width: 100px;
-		height: 100px;
-		margin-top: 20px;
-		margin-left: 580px;
-	}
 
 	h1 {
 		margin: 0px;
@@ -177,6 +197,24 @@ label {
 		color: white;
 	}
 
+	.nav-titles {
+		width: 1020px;
+		float: left;
+	}
+
+	.me {
+		border-radius: 50px;
+		width: 100px;
+		height: 100px;
+		margin-top: 20px;
+		margin-left: 590px;
+	}
+
+/*	.text-center {
+		width:500px;
+		height:220px;
+	}*/
+
 	.main {
 		left: 0;
 		top: 0;
@@ -206,7 +244,7 @@ label {
 		background-color: white;
 	}
 
-	.abt {
+	.abt, .se {
 		height: 400px;
 		position: relative;
 		left: 75px;
@@ -215,10 +253,6 @@ label {
 	}
 
 	.se {
-		height: 400px;
-		position: relative;
-		left: 75px;
-		right: 125px;
 		top: 40px;
 	}
 
@@ -228,7 +262,7 @@ label {
 		left: 90px;
 		right: 110px;
 		top: 860px;
-		background-color: red;
+		/*background-color: red;*/
 	}
 
 	.p1 {
@@ -271,11 +305,43 @@ label {
 		z-index: 1;
 	}
 
+	.propics {
+		display: inline-block;
+		width: 750px;
+	}
+
+	.pic {
+		width: 325px;
+		height: 375px;
+		margin-left: 30px;
+	}
+
+	.git {
+		height: 43px;
+		width: 50px;
+		position: relative;
+		float: right;
+		border-bottom: solid;
+		border-color: black;
+		border-width: 1px;
+		bottom: 13px;
+	}
+
 	[role~=button] {
 		margin-left: 460px;
 		margin-bottom: 5px;
 	}
 }
+
+
+/*ul img   http://qualitystarsny.org/images/bullet_star-inline.jpg*/
+
+
+
+/*lol1  http://tinypic.com/r/348r4av/8*/
+/*lol2  http://tinypic.com/r/2ilhv15/8*/
+/*lol3  http://tinypic.com/r/os9vgm/8*/
+
 
 
 
