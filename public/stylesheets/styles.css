@@ -8,11 +8,43 @@ label {
 	margin-left: 85px;
 }
 
-ul {
-   list-style-image: url('https://confluence.atlassian.com/s/en_GB/5790/c0d7e4b471d38961c3c7bcb02ff39a610accca23.27/_/images/icons/emoticons/star_yellow.png');
+label {
+	margin-left: 5px;
+	color: white;
 }
 
-#inputEmail, #inputPassword, #inputMEssage, .submit {
+#inputName, #inputEmail, #inputSubject,  #inputMEssage {
+	margin-left: 15px;
+	height: 30px;
+	width: 350px;
+	border-radius: 5px;
+	border-style: solid;
+}
+
+#follow {
+	color: white;
+}
+
+#email {
+	margin-left: 125px;
+	width: 200px;
+	color: white;
+}	
+
+#inputMessage {
+	height: 50px;
+}
+
+.follow {
+	height: 225px;
+	width: 200px;
+	position: relative;
+	margin-top: 5px;
+	left: 105px;
+}
+
+.submit {
+	margin-top: 5px;
 	margin-left: 80px;
 	width: 250px;
 }
@@ -22,6 +54,7 @@ ul {
 	width: 80px;
 	height: 80px;
 	margin-left: 175px;
+	top: 200px;
 }
 
 .main {
@@ -50,6 +83,10 @@ ul {
 	margin-right: 5px;
 }
 
+.ul {
+   list-style-image: url('https://confluence.atlassian.com/s/en_GB/5790/c0d7e4b471d38961c3c7bcb02ff39a610accca23.27/_/images/icons/emoticons/star_yellow.png');
+}
+
 .parallax {
 	margin-top: 350px;
 	height: 800px;
@@ -63,9 +100,8 @@ ul {
 
 .two{
 	background-color: white;
+	height: 3200px;
 }
-
-
 
 .nav-titles {
 	border-bottom: solid;
@@ -98,14 +134,14 @@ ul {
 	/*background-color: red;*/
 }
 
-.p1 {
-	height: 360px;
+.p1, .p2, .p3, .p4 {
+	height: 400px;
 	position: relative;
 	top: -720px;
-	bottom: 80px;
+	bottom: 30px;
 }
 
-.p2 {
+/*.p2 {
 	height: 360px;
 	position: relative;
 	top: -720px;
@@ -123,31 +159,33 @@ ul {
 	height: 360px;
 	position: relative;
 	top: -720px;
-	bottom: 100px;
-}
+	bottom: 80px;
+}*/
 
 .bg-con {
 	height: 700px;
 	width: 414px;
 	position: relative;
-	top: 5px;
+	top: 115px;
 	background-color: black;
 }
 
 .progress {
-	top: 0px;
-	width: 414px;
+	position: absolute;
+	bottom: -15px;
+	width: 100%;
 	z-index: 1;
 }
 
 .propics {
 	display:inline-block;
+	top: -50px;
 }
 
 .pic {
 	width: 125px;
 	height: 175px;
-	margin-left: 30px;
+	margin-left: 15px;
 }
 
 .git {
@@ -169,32 +207,64 @@ ul {
 	}
 
 	label {
-		margin-left: 435px;
+/*		position: relative;
+		left: 435px;*/
 		color: white;
 	}
 
-	#inputName, #inputEmail, #inputSubject, #inputMessage, .submit {
-		/*top:;*/
-		margin-left: 450px;
-		width: 400px;
-		border-radius: 5px;
-		border-style: solid;
+	#email {
+		float: right;
+		margin-right: 450px;
 	}
 
 	#inputMessage {
 		height: 150px;
 	}
 
-	#follow {
-		float: left;
-		color: white;
+	#inputName, #inputEmail, #inputSubject, #inputMessage {
+		/*top:;*/
+/*		margin-left: 450px;*/
+/*		position: relative;*/
+		width: 400px;
+		border-radius: 5px;
+		border-style: solid;
+		left: 450px;
 	}
 
-	#email {
+	.two{
+		height: 3200px;
+	}
+
+	.submit {
+		margin-left: 530px;
+		width: 400px;
+		border-radius: 5px;
+		border-style: solid;
+	}
+
+	.email {
 		float: right;
-		margin-right: 500px;
-		width: 200px;
-		color: white;
+		height: 450px;
+		position: relative;
+	}
+
+	.follow {
+		float: left;
+		height: 300px;
+		width: 400px;
+		position: absolute;
+		top: -10px;
+		left: 30px;
+	}
+
+	.form-group {
+		position: relative;
+		left: 500px;
+	}
+
+	.progress {
+		position: relative;
+		bottom: 0px;
 	}
 
 	.nav-titles {
@@ -206,7 +276,7 @@ ul {
 		border-radius: 50px;
 		width: 100px;
 		height: 100px;
-		margin-top: 20px;
+		margin-top: 50px;
 		margin-left: 590px;
 	}
 
@@ -265,7 +335,7 @@ ul {
 		/*background-color: red;*/
 	}
 
-	.p1 {
+	.p1, .p2, .p3, .p4 {
 		height: 450px;
 		position: relative;
 		top: -795px;
@@ -273,47 +343,35 @@ ul {
 	}
 
 	.p2 {
-		position: relative;
-		height: 450px;
 		top: -790px;
-		bottom: 80px;
 	}
 
 	.p3 {
-		position: relative;
-		height: 450px;
 		top: -785px;
-		bottom: 80px;
 	}
 
 	.p4 {
-		position: relative;
-		height: 450px;
 		top: -780px;
 		bottom: 100px;
 	}
 
 	.bg-con {
 		height: 500px;
+		width: 100%;
 		position: relative;
 		top: 105px;
 		background-color: black;
 	}
 
-	.progress {
-		top: 110px;
-		z-index: 1;
-	}
-
 	.propics {
-		display: inline-block;
-		width: 750px;
+		width: 740px;
+		top: 0px;
 	}
 
 	.pic {
 		width: 325px;
 		height: 375px;
-		margin-left: 30px;
+		margin-left: 20px;
 	}
 
 	.git {
@@ -328,7 +386,7 @@ ul {
 	}
 
 	[role~=button] {
-		margin-left: 460px;
+		margin-left: 430px;
 		margin-bottom: 5px;
 	}
 }
