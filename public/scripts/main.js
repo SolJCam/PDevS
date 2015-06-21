@@ -19,7 +19,7 @@ $(document).ready(function(){
 			$('.abt').css("width", "1100px");
 			$('.se').css("width", "1100px");
 			$('.p').css("width", "1100px");
-			$('.rtd').css({"width": "350px", "height": "380px", "top": "80px", "float": "right"});
+			$('.rtd').css({"width": "345px", "height": "380px", "top": "80px", "float": "right"});
 			$('.abt-txt').css({"position":"relative", "margin-left":"430px", "right":"200px", "width": "600px", "top":"30px"});
 			$('.skills').css({"float":"left", "width":"530px", "height":"330px"});
 			$('.xp').css({"float":"right", "width":"530px", "height":"330px"});
@@ -30,13 +30,14 @@ $(document).ready(function(){
 			var scrolled = $(window).scrollTop();
 			$('.parallax').css('top', 0 - scrolled);
 
-			$('.propics').css("width", "400px")
-			$('.ul').css("margin", "0px")
+			// $('.propics').css("width", "400px");
+			$('.rtd').css({"position":"absolute", "bottom":"2px", "height":"280px"})
+			$('.ul').css("margin", "0px");
 			$('.abt').css("width", "410px");
 			$('.se').css({"width":"410px","height":"700px"});
 			$('.p').css("width", "410px");
 			$('.skills').css({"margin":"0px"});
-			$('.nav-titles').css("width", "340px")		
+			$('.nav-titles').css("width", "340px");		
 
 		}
 	});
