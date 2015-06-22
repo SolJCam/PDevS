@@ -4,8 +4,6 @@ $(document).ready(function(){
 
 	$('h1').css("margin", "0px");
 	$('h2').css("color", "#CCCCCC");
-	$('h5').css("color", "#7ADEFF");
-	// $('.parallax').css("margin-top", "0px");
 
 	toggleBtnsOrPills();
 
@@ -19,7 +17,7 @@ $(document).ready(function(){
 			$('.abt').css("width", "1100px");
 			$('.se').css("width", "1100px");
 			$('.p').css("width", "1100px");
-			$('.rtd').css({"width": "345px", "height": "380px", "top": "80px", "float": "right"});
+			$('.rtd').css({"width": "400px", "height": "380px", "top": "0px", "float": "right", "margin":"0px"});
 			$('.abt-txt').css({"position":"relative", "margin-left":"430px", "right":"200px", "width": "600px", "top":"30px"});
 			$('.skills').css({"float":"left", "width":"530px", "height":"330px"});
 			$('.xp').css({"float":"right", "width":"530px", "height":"330px"});
@@ -30,9 +28,9 @@ $(document).ready(function(){
 			var scrolled = $(window).scrollTop();
 			$('.parallax').css('top', 0 - scrolled);
 
-			// $('.propics').css("width", "400px");
-			$('.rtd').css({"position":"absolute", "bottom":"2px", "height":"280px"})
-			$('.ul').css("margin", "0px");
+			$('.rtd').css({"margin":"0px", "top":"-35px", "height":"175px"})
+			$('.propics').css("width", "400px")
+			$('.ul').css("margin", "0px")
 			$('.abt').css("width", "410px");
 			$('.se').css({"width":"410px","height":"700px"});
 			$('.p').css("width", "410px");
