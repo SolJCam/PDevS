@@ -268,7 +268,7 @@ label {
 	}
 
 	.nav-titles {
-		width: 1020px;
+		width: 1040px;
 		float: left;
 	}
 
@@ -375,14 +375,14 @@ label {
 	}
 
 	.git {
-		height: 43px;
-		width: 50px;
+		height: 35px;
+		width: 30px;
 		position: relative;
 		float: right;
 		border-bottom: solid;
 		border-color: black;
 		border-width: 1px;
-		bottom: 13px;
+		bottom: -12px;
 	}
 
 	[role~=button] {
