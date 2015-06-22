@@ -178,12 +178,14 @@ label {
 }
 
 .propics {
+/*	position: absolute;*/
+	top: -40px;
 	display:inline-block;
 	top: -50px;
 }
 
 .pic {
-	width: 125px;
+	width: 150px;
 	height: 175px;
 	margin-left: 15px;
 }
@@ -364,12 +366,12 @@ label {
 	}
 
 	.propics {
-		width: 740px;
+		width: 700px;
 		top: 0px;
 	}
 
 	.pic {
-		width: 325px;
+		width: 305px;
 		height: 375px;
 		margin-left: 20px;
 	}

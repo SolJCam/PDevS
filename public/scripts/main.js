@@ -17,7 +17,7 @@ $(document).ready(function(){
 			$('.abt').css("width", "1100px");
 			$('.se').css("width", "1100px");
 			$('.p').css("width", "1100px");
-			$('.rtd').css({"width": "360px", "height": "380px", "top": "0px", "float": "right", "margin":"0px"});
+			$('.rtd').css({"width": "400px", "height": "380px", "top": "0px", "float": "right", "margin":"0px"});
 			$('.abt-txt').css({"position":"relative", "margin-left":"430px", "right":"200px", "width": "600px", "top":"30px"});
 			$('.skills').css({"float":"left", "width":"530px", "height":"330px"});
 			$('.xp').css({"float":"right", "width":"530px", "height":"330px"});
@@ -35,7 +35,7 @@ $(document).ready(function(){
 			$('.se').css({"width":"410px","height":"700px"});
 			$('.p').css("width", "410px");
 			$('.skills').css({"margin":"0px"});
-			$('.nav-titles').css("width", "340px")		
+			$('.nav-titles').css("width", "340px");		
 
 		}
 	});
