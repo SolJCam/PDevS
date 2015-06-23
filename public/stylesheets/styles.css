@@ -131,7 +131,6 @@ label {
 	left: 17px;
 	right: 0px;
 	top: 800px;
-	/*background-color: red;*/
 }
 
 .p1, .p2, .p3, .p4 {
@@ -140,27 +139,6 @@ label {
 	top: -720px;
 	bottom: 30px;
 }
-
-/*.p2 {
-	height: 360px;
-	position: relative;
-	top: -720px;
-	bottom: 80px;
-}
-
-.p3 {
-	height: 360px;
-	position: relative;
-	top: -720px;
-	bottom: 80px;
-}
-
-.p4 {
-	height: 360px;
-	position: relative;
-	top: -720px;
-	bottom: 80px;
-}*/
 
 .bg-con {
 	height: 700px;
@@ -178,7 +156,6 @@ label {
 }
 
 .propics {
-/*	position: absolute;*/
 	top: -40px;
 	display:inline-block;
 	top: -50px;
@@ -209,8 +186,6 @@ label {
 	}
 
 	label {
-/*		position: relative;
-		left: 435px;*/
 		color: white;
 	}
 
@@ -224,9 +199,6 @@ label {
 	}
 
 	#inputName, #inputEmail, #inputSubject, #inputMessage {
-		/*top:;*/
-/*		margin-left: 450px;*/
-/*		position: relative;*/
 		width: 400px;
 		border-radius: 5px;
 		border-style: solid;
@@ -282,11 +254,6 @@ label {
 		margin-left: 590px;
 	}
 
-/*	.text-center {
-		width:500px;
-		height:220px;
-	}*/
-
 	.main {
 		left: 0;
 		top: 0;
@@ -334,7 +301,6 @@ label {
 		left: 90px;
 		right: 110px;
 		top: 860px;
-		/*background-color: red;*/
 	}
 
 	.p1, .p2, .p3, .p4 {
