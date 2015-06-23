@@ -387,11 +387,6 @@ label {
 	.git {
 		height: 35px;
 		width: 30px;
-		position: relative;
-		float: right;
-		border-bottom: solid;
-		border-color: black;
-		border-width: 1px;
 		bottom: -12px;
 	}
 

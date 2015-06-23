@@ -2,6 +2,10 @@ console.log("scripts are being read");
 
 $(document).ready(function(){
 
+	$(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+	})
+
 	$('h2').css("color", "#CCCCCC");
 
 	toggleBtnsOrPills();
@@ -14,7 +18,7 @@ $(document).ready(function(){
 			$('.parallax').css('top', 0 - scrolled);
 
 			$(".two").css("height", "2780px");
-			$(".bg-con").css("height", "510px")
+			$(".bg-con").css("height", "525px")
 
 		}else{
 			var scrolled = $(window).scrollTop();
