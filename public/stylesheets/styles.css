@@ -49,6 +49,12 @@ label {
 	width: 250px;
 }
 
+.rtd {
+	margin: 0px; 
+	top: -35px;
+	height: 175px;
+}
+
 .me {
 	border-radius: 50px;
 	width: 80px;
@@ -104,6 +110,7 @@ label {
 }
 
 .nav-titles {
+	width: 340px;
 	border-bottom: solid;
 	border-color: black;
 	border-width: 1px;
@@ -111,7 +118,7 @@ label {
 }
 
 .abt {
-	height: 360px;
+	height: 360px;*/
 	position: relative;
 	left: 2px;
 	right: 0px;
@@ -119,7 +126,7 @@ label {
 }
 
 .se {
-	height: 360px;
+	height: 700px;
 	position: relative;
 	margin: 0px;
 	top: 30px;
@@ -127,6 +134,7 @@ label {
 
 .p {
 	height: 1440px;
+	width: 410px;
 	position: relative;
 	left: 17px;
 	right: 0px;
@@ -134,7 +142,7 @@ label {
 }
 
 .p1, .p2, .p3, .p4 {
-	height: 400px;
+	height: 600px;
 	position: relative;
 	top: -720px;
 	bottom: 30px;
@@ -156,7 +164,6 @@ label {
 }
 
 .propics {
-	top: -40px;
 	display:inline-block;
 	top: -50px;
 }
@@ -180,6 +187,10 @@ label {
 
 @media (min-width: 900px) and (max-width:1300px) {
  /*and (min-height: 700px) and (max-height:2000px) */
+
+ 	html {
+ 		height: 1980px;
+ 	}
 
 	h1 {
 		margin: 0px;
@@ -239,6 +250,7 @@ label {
 	.progress {
 		position: relative;
 		bottom: 0px;
+		margin-bottom: 0px
 	}
 
 	.nav-titles {
@@ -284,6 +296,7 @@ label {
 	}
 
 	.abt, .se {
+		width: 1100px;
 		height: 400px;
 		position: relative;
 		left: 75px;
@@ -295,12 +308,41 @@ label {
 		top: 40px;
 	}
 
+	.abt-txt {
+		position: relative;
+		margin-left: 430px; 
+		right: 200px; 
+		width: 600px; 
+		top: 30px;
+	}
+
+	.skills {
+		float: left;
+		width: 530px;
+		height: 330px;
+	}
+
+	.xp {
+		float: right; 
+		width: 530px; 
+		height: 330px;
+	}
+
 	.p {
+		width: 1100px;
 		height: 1825px;
 		position: relative;
 		left: 90px;
 		right: 110px;
 		top: 860px;
+	}
+
+	.rtd {
+		width: 400px;
+		height: 380px;
+		top: 0px;
+		float: right;
+		margin: 0px;
 	}
 
 	.p1, .p2, .p3, .p4 {
