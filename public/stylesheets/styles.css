@@ -5,12 +5,11 @@ body {
 }
 
 label {
-	margin-left: 85px;
+	color: white;
 }
 
-label {
-	margin-left: 5px;
-	color: white;
+h2 {
+	color: #CCCCCC;
 }
 
 #inputName, #inputEmail, #inputSubject,  #inputMEssage {
@@ -91,6 +90,7 @@ label {
 
 .ul {
    list-style-image: url('https://confluence.atlassian.com/s/en_GB/5790/c0d7e4b471d38961c3c7bcb02ff39a610accca23.27/_/images/icons/emoticons/star_yellow.png');
+/*   margin: 0px;*/
 }
 
 .parallax {
@@ -129,7 +129,7 @@ label {
 	height: 700px;
 	position: relative;
 	margin: 0px;
-	top: 30px;
+	top: 70px;
 }
 
 .p {
@@ -185,6 +185,12 @@ label {
 	bottom: 57px;
 }
 
+[data-toggle~=tooltip] {
+	left: 0px;
+	position: relative;
+	top: 0px;
+}
+
 @media (min-width: 900px) and (max-width:1300px) {
  /*and (min-height: 700px) and (max-height:2000px) */
 
@@ -217,7 +223,7 @@ label {
 	}
 
 	.two{
-		height: 3200px;
+		height: 2780px;
 	}
 
 	.submit {
@@ -366,7 +372,7 @@ label {
 	}
 
 	.bg-con {
-		height: 500px;
+		height: 525px;
 		width: 100%;
 		position: relative;
 		top: 105px;
@@ -387,17 +393,17 @@ label {
 	.git {
 		height: 35px;
 		width: 30px;
-		position: relative;
-		float: right;
-		border-bottom: solid;
-		border-color: black;
-		border-width: 1px;
 		bottom: -12px;
 	}
 
 	[role~=button] {
 		margin-left: 430px;
 		margin-bottom: 5px;
+	}
+
+	[data-toggle~=tooltip] {
+		left: 20px;
+		top: 20px;
 	}
 }
 
