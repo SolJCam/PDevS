@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 		$('#A').click(function(e){
 			e.preventDefault()
-			window.scrollTo(0, 361)
+			window.scrollTo(0, 355)
 		})
 
 		$('#S').click(function(e){
@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 		$('#P').click(function(e){
 			e.preventDefault()
-			window.scrollTo(0, 788)
+			window.scrollTo(0, 778)
 		})
 
 		$('#C').click(function(e){
