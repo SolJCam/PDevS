@@ -51,6 +51,11 @@ $(document).ready(function(){
 			window.scrollTo(0, 1392)
 		})
 
+		$('.follow').append($('<ul>').attr("id", "sm"))
+		for(i=0;i.length;i++){
+			$('.sm')
+		}
+
 	} else {
 
 		$('li[role=button]').toggle();
