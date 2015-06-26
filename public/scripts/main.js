@@ -20,7 +20,7 @@ $(document).ready(function(){
 			e.preventDefault()
 			alert("Please provide a message")
 		}else{
-			var email = "mailto:scameron110@gmail.com?from="+$('#inputEmail').val()+"&subject="+$('#inputSubject').val()+"&body="+$('#inputMessage').val()
+			var email = "mailto:scameron110@gmail.com?from="+"&subject="+$('#inputSubject').val()+"&body="+"<"+$('#inputName').val()+">"+"<"+$('#inputEmail').val()+">"+$('#inputMessage').val()
 			var href = email.replace(/ /g, "%20")
 			console.log(href)
 			$("#submit").attr("href", href)
@@ -50,11 +50,6 @@ $(document).ready(function(){
 			e.preventDefault()
 			window.scrollTo(0, 1392)
 		})
-
-		$('.follow').append($('<ul>').attr("id", "sm"))
-		for(i=0;i.length;i++){
-			$('.sm')
-		}
 
 	} else {
 

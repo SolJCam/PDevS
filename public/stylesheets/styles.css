@@ -22,6 +22,8 @@ h2 {
 
 #follow {
 	color: white;
+	position: relative;
+	right: 20px;
 }
 
 #email {
@@ -32,27 +34,58 @@ h2 {
 
 #inputMessage {
 	height: 50px;
+}	
+
+#in {
+	top: 10px;
+	left: 10px;
+	position: relative;
 }
 
-#Connect {
-	background-color: black;
-	height: 640px; 
+#tw {
+	top: 10px;
+	left: 15px;
+	position: relative;
+}
+
+#gg {
+	top: -70px;
+	left: 20px;
+	position: relative;
+}
+
+#ga {
+	top: 10px;
+	left: 185px;
+	position: relative;
 }
 
 .sm {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	position: relative;
 	top: 20px;
-	background-color: white; 
+	border-radius: 30px;
 }
 
 .follow {
-	height: 190px;
+	height: 150px;
 	width: 250px;
 	position: relative;
 	top: 35px;
-	left: 105px;
+	left: 95px;
+}
+
+.list-unstyled {
+	position: absolute;
+	left: -20px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.list-unstyled li {
+	display: inline;
 }
 
 .submit {
@@ -103,7 +136,6 @@ h2 {
 
 .ul {
    list-style-image: url('https://confluence.atlassian.com/s/en_GB/5790/c0d7e4b471d38961c3c7bcb02ff39a610accca23.27/_/images/icons/emoticons/star_yellow.png');
-/*   margin: 0px;*/
 }
 
 .parallax {
@@ -162,7 +194,7 @@ h2 {
 }
 
 .bg-con {
-	height: 700px;
+	height: 600px;
 	width: 414px;
 	position: relative;
 	top: 115px;
@@ -198,10 +230,6 @@ h2 {
 	bottom: 57px;
 }
 
-/*.list-unstyled {
-
-}*/
-
 @media (min-width: 900px) and (max-width:1300px) {
  /*and (min-height: 700px) and (max-height:2000px) */
 
@@ -215,6 +243,41 @@ h2 {
 
 	label {
 		color: white;
+	}
+
+/*	#in {
+		top: 40px;
+		left: 100px;
+	}
+
+	#tw {
+ 		top: 70px;
+		left: 100px;
+	}
+
+	#gg {
+		top: 20px;
+		left: 100px;
+	}*/
+
+	#in {
+		top: 30px;
+		left: 140px;
+	}
+
+	#tw {
+ 		top: 30px;
+		left: 175px;
+	}
+
+	#gg {
+		top: -50px;
+		left: 210px;
+	}
+
+	#ga {
+		top: 100px;
+		left: 140px;
 	}
 
 	#email {
@@ -233,9 +296,21 @@ h2 {
 		left: 450px;
 	}
 
-	#Connect {
-		height: 530px; 
-}
+/*	.list-unstyled li {
+		position: relative;
+		left: 130px;
+		display: list-item;
+	}*/
+
+	.list-unstyled li {
+		display: inline;
+		position: relative;
+	}
+
+	#follow {
+		top: 10px;
+		right: -40px;
+	}
 
 	.two{
 		height: 2800px;
@@ -388,7 +463,7 @@ h2 {
 	}
 
 	.bg-con {
-		height: 525px;
+		height: 530px;
 		width: 100%;
 		position: relative;
 		top: 125px;
@@ -427,20 +502,3 @@ h2 {
 		bottom: 8px;
 	}
 }
-
-
-/*ul img   http://qualitystarsny.org/images/bullet_star-inline.jpg*/
-
-
-
-/*lol1  http://tinypic.com/r/348r4av/8*/
-/*lol2  http://tinypic.com/r/2ilhv15/8*/
-/*lol3  http://tinypic.com/r/os9vgm/8*/
-
-
-
-
-/*Skyline: http://i61.tinypic.com/2mg7csh.png*/
-/*Lap2: http://i60.tinypic.com/kd9w69.png*/
-/*Lap: http://i59.tinypic.com/ok8i6b.png*/
-/*FirsLap: http://i58.tinypic.com/2uztpmq.png*/
