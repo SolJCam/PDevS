@@ -1,249 +1,253 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sol Cameron: Web Developer</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="scripts/main.js"></script>
-</head>
-<body>
-	<div class="main container-fluid col-xs-12">
-		<div class="row">
-			<div class="image col-xs-12"></div>
-			<img class="me" src="http://i57.tinypic.com/f2ot9e.jpg">
-			<h4 class="col-xs-12 text-primary text-center">Sol Cameron</h4>
-			<h2 class="col-xs-12 text-center">NYC Full Stack Web Developer</h2>
-		</div>
-		<div class="btns col-xs-12">
-			<button id="Ab" class="first btn btn-info btn-xs">About</button><button id="SE" class="btn btn-info btn-xs">Skills & Experience</button><button id="Pj" class="btn btn-info btn-xs">Projects</button><button id="Cn" class="first btn btn-info btn-xs">Connect</button>
-		</div>
-		<ul class="nav nav-pills">
-		  <li role="button" class="btn-xs" id="A"><a href="#">About</a></li>
-		  <li role="button" class="btn-xs" id="S"><a href="#">Skills & Experience</a></li>
-		  <li role="button" class="btn-xs" id="P"><a href="#">Projects</a></li>
-		  <li role="button" class="btn-xs" id="C"><a href="#">Connect</a></li>
-		</ul>
-	</div>
-	<div class="parallax col-xs-12">
-		<div class="two row">
-			<div  class="col-xs-12 abt">
-				<h3 id="About" class="nav-titles">About</h3>
-				<h3 class="abt-txt text-center">An accounting major looking to enter the tech industry, my goal is to place my keen eye for detail and inquisitive qualities to use building efficient, automated back end systems and sleek, user friendly front end applications. I'm not easily discouraged and enjoy the challenge of hitting a roadblock and knocking it down with persistence. I envision myself building practical easy-to-use applications for either the workplace or the everyday individual.</h3>
-			</div>
-			<div  class="col-xs-12 se">
-				<h3 id="Skills & Experience" class="nav-titles">Skills & Experience</h3>
-				<div class="col-xs-12 skills">
-					<h4>Skills</h4>
-					<ul class="ul" style="float:left;margin-left:50px">
-					  <li><h4>Node.js</h4></li>
-					  <li><h4>jQuery</h4></li>
-					  <li><h4>Express</h4></li>
-					  <li><h4>Ajax</h4></li>
-					  <li><h4>RoR</h4></li>
-					  <li><h4>Sinatra</h4></li>
-					  <li><h4>APIs</h4></li>
-					  <li><h4>Postgresql</h4></li>
-					</ul>
-					<ul class="ul" style="float:right;margin-right:50px">
-					  <li><h4>Bootstrap</h4></li>
-					  <li><h4>Materialize</h4></li>
-					  <li><h4>HTML5/CSS4</h4></li>
-					  <li><h4>Git Version Control</h4></li>
-					  <li><h4>UNIX commands</h4></li>
-					  <li><h4>Heroku</h4></li>
-					  <li><h4>Digital Ocean</h4></li>
-					  <li><h4>Trello</h4></li>
-					</ul>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sol Cameron: Web Developer</title>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Rouge+Script|Sofia|Flamenco|Geo|Stint+Ultra+Expanded|Linden+Hill|Balthazar' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/styles.min.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="scripts/main.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid main">
+			<header class="row one">
+				<div class="col-xs-12">
+					<div class="image" style="display:none;"></div>
+					<img class="center-block img-circle me" style="display:none;" src="http://i62.tinypic.com/1z5rr5y.jpg">
+					<h4 id="myname" class="text-primary text-center">Sol Cameron</h4>
+					<h2 id="mydevtype" class="text-center">NYC Full Stack Web Developer</h2>
 				</div>
-				<div class="col-xs-12 xp">
-					<h4>Experience</h4>
-						<ul>
-							<li><p>General Assembly
-									Web Development Immersive, November 2014 – February 2015
-							</p></li>
-							<li><p>Teller, Capital One Bank 					          
-									June 2013 – September 2014
-							</p></li>
-							<li><p>Shift supervisor,  Starbucks				          
-									September 2012 - June 2013
-							</p></li>
-							<li><p>St. Johns University            
-									Office Assistant/Student Manager, May 2010 – August 2012
-							</p></li>
-							<li><p>St. John’s University
-							 		Resident Assistant, August 2009 – May 2010
-							</p></li>
-						</ul>
-					<h4>Education</h4>
-						<ul>
-						  <li><p>St. John’s University								       
-									May 2012
-									Bachelor of Science, Accounting; Minor, Africana Studies 
-							</p></li>
-						</ul>
-				</div>
-			</div>
-			<div class="row p">
-				<div class="col-xs-12 p1">
-					<h3 id="Projects" class="nav-titles">World Cup Wiki</h3><a href="https://github.com/SolJCam/World_Cup_Wiki" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit the github!"><img class="git" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
+				<nav class="col-xs-12 btns">
+					<button id="Ab" class="first btn btn-info btn-xs">About</button><button id="SE" class="btn btn-info btn-xs">Skills & Experience</button><button id="Pj" class="btn btn-info btn-xs">Projects</button><button id="Cn" class="first btn btn-info btn-xs">Connect</button>
+					<ul class="center-block nav nav-pills">
+					  <li role="button" class="btn-xs"><a id="A" href="#About">About</a></li>
+					  <li role="button" class="btn-xs"><a id="S" href="#SkillsExperience">Skills & Experience</a></li>
+					  <li role="button" class="btn-xs"><a id="P" href="#Projects">Projects</a></li>
+					  <li role="button" class="btn-xs"><a id="C" href="#follow">Connect</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="row two parallax">
+					<h3 id="About" class="nav-titles" style="border-width:1px;display:none;">About</h3>
+				<section  class="col-xs-12 col-md-8 col-md-offset-3 abt"  style="display:none;">
+					<h3 class="abt-txt text-center">An accounting major looking to enter the tech industry, my goal is to place my keen eye for detail and inquisitive qualities to use building efficient, automated back end systems and sleek, user friendly front end applications.</h3>
+				</section>
+					<h3 id="SkillsExperience" class="nav-titles" style="border-width:1px;display:none;">Skills & Experience</h3>
+				<section  class="col-xs-12 col-md-8 se">
 					<div class="row">
-						<div class="col-xs-12 propics">
-							<img class="pic" src="http://i62.tinypic.com/1t7o6a.png">
-							<img class="pic" src="http://i57.tinypic.com/1625ixh.png">
-							<!-- <img class="pic" src="http://i61.tinypic.com/kdsxt3.png"> -->
-						</div>
-						<div class="col-xs-12 rtd">
-							<h4>Resources/Technologies:</h4>
-							<ul style="float:left;margin-left:0px">
+						<section class="col-xs-12 col-sm-7 col-md-5 skills" style="display:none;">
+							<h4 class="text-center TitleSE">Skills</h4>
+							<ul class="ul" id="ul1">
+								<li><h4>Node.js</h4></li>
+								<li><h4>jQuery</h4></li>
+								<li><h4>Express</h4></li>
+								<li><h4>Ajax</h4></li>
+								<li><h4>RoR</h4></li>
+								<li><h4>Sinatra</h4></li>
+								<li><h4>APIs</h4></li>
+								<li><h4>Postgresql</h4></li>
+							</ul>
+							<ul class="ul" id="ul2">
+								<li><h4>Bootstrap</h4></li>
+								<li><h4>Materialize</h4></li>
+								<li><h4>HTML5/CSS4</h4></li>
+								<li><h4>Git Version Control</h4></li>
+								<li><h4>UNIX commands</h4></li>
+								<li><h4>Heroku</h4></li>
+								<li><h4>Digital Ocean</h4></li>
+								<li><h4>Trello</h4></li>
+							</ul>
+						</section>
+						<section class="col-xs-12 col-sm-5 col-md-6 col-md-offset-1 xp" style="display:none;">
+							<h4 class="text-center exp">Experience</h4>
+							<ul>
+								<li><p>General Assembly
+										Web Development Immersive, November 2014 – February 2015
+								</p></li>
+								<li><p>Teller, Capital One Bank 					          
+										June 2013 – September 2014
+								</p></li>
+								<li><p>Shift supervisor,  Starbucks				          
+										September 2012 - June 2013
+								</p></li>
+								<li><p>St. Johns University            
+										Office Assistant/Student Manager, May 2010 – August 2012
+								</p></li>
+								<li><p>St. John’s University
+										Resident Assistant, August 2009 – May 2010
+								</p></li>
+							</ul>
+							<h4 id="ed" class="text-center">Education</h4>
+							<ul>
+							  <li><p>St. John’s University								       
+										May 2012
+										Bachelor of Science, Accounting; Minor, Africana Studies 
+								</p></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+					<h3 id="Projects" class="nav-titles" style="border-width:1px;display:none;">Projects</h3>
+				<section class="col-xs-12 col-md-8 col-md-offset-2 p1" style="display:none;">
+					<h4 class="nav-titles" style="border-width:1px;">World Cup Wiki</h4><a href="https://github.com/SolJCam/World_Cup_Wiki" target="_blank" data-toggle="tooltip" data-placement="top" data-container="a" title="Visit the github!"><img class="git" style="border-width:1px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
+					<div class="row">
+						<section class="col-xs-12 col-md-6 propics">
+							<img id="pic1" class="pic" src="http://i62.tinypic.com/1t7o6a.png">
+							<img id="pic2" class="pic" src="http://i57.tinypic.com/1625ixh.png">
+						</section>
+						<section id="WWrtd" class="col-xs-12 col-md-5 rtd">
+							<h4 id="WWRT" class="text-center">Resources/Technologies:</h4>
+							<ul id="WWul1" class="ul1">
 							  <li><p>Ruby</p></li>
 							  <li><p>Sinatra</p></li>
 							  <li><p>ActiveRecord</p></li>
 							  <li><p>PostgreSQL</p></li>
 							</ul>
-							<ul style="float:right;margin-right:50px">
+							<ul id="WWul2" class="ul2">
 							  <li><p>Mustache</p></li>
 							  <li><p>Google API</p></li>
 							  <li><p>Facebook OAuth</p></li>
 							 </ul>
-							<h4 style="position:absolute;top:160px">Role:</h4>
-							<p style="position:absolute;top:200px">Independent Project</p>
-							<h4 style="position:absolute;top:230px">Description:</h4>
-							<p style="position:absolute;top:270px">FIFA World Cup Wiki. Users can recreate all their favorite world cups from bygone eras with teams, players and results. Features tournament summaries and team details such as top scorer and geographic location. Full CRUD functionality.</p>
-							<h4 style="position:absolute;top:360px">Website:</h4>
-							<a href="http://world-cup-wiki.herokuapp.com" style="position:absolute;top:400px" target="_blank">world-cup-wiki.herokuapp.com</a>
-						</div>
+							<h4  id="WWR" class="text-center r">Role:</h4>
+							<p id="WWRD" class="text-center ip">Independent Project</p>
+							<h4 id="WWD" class="text-center d">Description:</h4>
+							<p id="WWDD" class="desc">FIFA World Cup Wiki. Users can recreate all their favorite world cups from bygone eras with teams, players and results. Features tournament summaries and team details such as top scorer and geographic location. Full CRUD functionality.</p>
+							<h4  id="WebWW" class="text-center">Website:</h4>
+							<a id="WWls" class="liveSite" href="http://world-cup-wiki.herokuapp.com" target="_blank">world-cup-wiki.herokuapp.com</a>
+						</section>
 					</div>
-				</div>
-				<div  class="col-xs-12 p2">
-					<h3 class="nav-titles">Sols Chatroom</h3><a href="https://github.com/SolJCam/socket.io" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit the github!"><img class="git" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
+				</section>
+				<section  class="col-xs-12 col-md-8 col-md-offset-2 p2" style="display:none;">
+					<h4 class="nav-titles" style="border-width:1px;">Sols Chatroom</h4><a href="https://github.com/SolJCam/socket.io" target="_blank" data-toggle="tooltip" data-placement="top" data-container="a" title="Visit the github!"><img class="git" style="border-width:1px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
 					<div class="row">
-						<div class="col-xs-12 propics">
+						<section class="col-xs-12 col-md-6 propics">
 							<img class="pic" src="http://i58.tinypic.com/2iaq0pt.png">
-							<!-- <img class="pic" src="http://i57.tinypic.com/4kz87.png"> -->
 							<img class="pic" src="http://i61.tinypic.com/fv9pub.png">
-						</div>
-						<div class="col-xs-12 rtd">
-							<h4>Resources/Technologies:</h4>
-							<ul>
+						</section>
+						<section class="col-xs-12 col-md-6 rtd">
+							<h4 class="text-center">Resources/Technologies:</h4>
+							<ul id="cm-rtd">
 							  <li><p>Node.js</p></li>
 							  <li><p>Express.js</p></li>
 							  <li><p>Socket.io</p></li>
 							  <li><p>Materialize</p></li>
 							</ul>
-							<h4 style="position:absolute;top:170px">Role:</h4>
-							<p style="position:absolute;top:210px">Independent Project</p>
-							<h4 style="position:absolute;top:240px">Description:</h4>
-							<p style="position:absolute;top:280px">Simple socket.io app which allows users to set a username and choose an avatar (from the web or off their hardrive).</p>
-<!-- 							<p>Additional features include emojis with shortcuts and online status</p> -->
-							<h4 style="position:absolute;top:360px">Website:</h4>
-							<a href="http://solschatroom.herokuapp.com" style="position:absolute;top:400px" target="_blank">solschatroom.herokuapp.com</a>
-						</div>
+							<h4 id="CMR" class="text-center">Role:</h4>
+							<p id="CMRD" class="text-center">Independent Project</p>
+							<h4 id="CMD" class="text-center">Description:</h4>
+							<p id="CMDD" class="desc">Simple socket.io app which allows users to set a username and choose an avatar (from the web or off their hardrive).</p>
+	<!-- 							<p>Additional features include emojis with shortcuts and online status</p> -->
+							<h4 id="WebCM" class="text-center">Website:</h4>
+							<a class="liveSite" href="http://solschatroom.herokuapp.com" target="_blank">solschatroom.herokuapp.com</a>
+						</section>
 					</div>
-				</div>
-				<div  class="col-xs-12 p3">
-					<h3 class="nav-titles">Lolist</h3><a href="https://github.com/the-original-orcas/LOList" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit the github!"><img class="git" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
+				</section>
+				<section  class="col-xs-12 col-md-8 col-md-offset-2 p3" style="display:none;">
+					<h4 class="nav-titles" style="border-width:1px;">Lolist</h4><a href="https://github.com/the-original-orcas/LOList" target="_blank" data-toggle="tooltip" data-placement="top" data-container="a" title="Visit the github!"><img class="git" style="border-width:1px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
 					<div class="row">
-						<div class="col-xs-12 propics">
-							<!-- <img class="pic" src="http://i62.tinypic.com/348r4av.jpg"> -->
+						<section class="col-xs-12 col-md-6 propics">
 							<img class="pic" src="http://i58.tinypic.com/2ilhv15.jpg">
 							<img class="pic" src="http://i61.tinypic.com/os9vgm.jpg">
-						</div>
-						<div class="col-xs-12 rtd">
-							<h4>Resources/Technologies:</h4>
-							<ul style="float:left;margin-left:0px">
+						</section>
+						<section class="col-xs-12 col-md-6 rtd">
+							<h4 class="text-center">Resources/Technologies:</h4>
+							<ul id="lol-ul1-rtd" class="ul1">
 							  <li><p>RoR</p></li>
 							  <li><p>PostgreSQL</p></li>
 							  <li><p>Bcrypt</p></li>
 							  <li><p>Materialize</p></li>
 							  <li><p>Omiauth-facebook</p></li>
 							</ul>
-							<ul style="float:right;margin-right:50px">
+							<ul class="ul2">
 							  <li><p>Geocoder</p></li>
 							  <li><p>Whenever</p></li>
 							  <li><p>Unicorn</p></li>
 							  <li><p>httparty</p></li>
 							  <li><p>SASS-rails</p></li>
 							</ul>
-							<h4 style="position:absolute;top:180px">Role:</h4>
-							<p style="position:absolute;top:220px">Back-end: Resource data persistence</p>
-							<h4 style="position:absolute;top:250px">Description:</h4>
-							<p style="position:absolute;top:290px">LOList is a web app that displays a curated list of popular comedians, allows it's users to follow their favorite ones and recieve notifications for any upcoming shows nearby.</p>
-							<h4 style="position:absolute;top:360px">Website:</h4>
-							<a href="http://lolist.io" style="position:absolute;top:400px" target="_blank">lolist.io</a>
-						</div>
+							<h4 id="lolR" class="text-center">Role:</h4>
+							<p id="lolRD">Back-end: Resource data persistence</p>  <!-- had to make this elm absolute otherwise it does this weird block display thing -->
+							<h4 id="lolD" class="text-center">Description:</h4>
+							<p id="lolDD" class="desc" >LOList is a web app that displays a curated list of popular comedians, allows it's users to follow their favorite ones and recieve notifications for any upcoming shows nearby.</p>
+							<h4 id="Webll" class="text-center">Website:</h4>
+							<a class="liveSite" href="http://lolist.io" target="_blank">lolist.io</a>
+						</section>
 					</div>
-				</div>		
-				<div  class="col-xs-12 p4" style="display:none">
-					<h3 class="nav-titles">ToVisit</h3><a href="https://github.com/SolJCam/toVisit" target="_blank" data-toggle="tooltip" data-placement="top" title="Visit the github!"><img class="git" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
+				</section>		
+				<section  class="col-xs-12 col-md-8 col-md-offset-2 p4" style="display:none;"> 
+					<h4 class="nav-titles" style="border-width:1px;">ToVisit</h4><a href="https://github.com/SolJCam/toVisit" target="_blank" data-toggle="tooltip" data-placement="top" data-container="a" title="Visit the github!"><img class="git" style="border-width:1px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
 					<div class="row">
-						<div class="col-xs-12 propics">
+						<section class="col-xs-12 col-md-6 propics">
 							<img class="pic" src="">
 							<img class="pic" src="">
-						</div>
-						<div class="col-xs-12 rtd">
-							<h4>Resources/Technologies:</h4>
+						</section>
+						<section class="col-xs-12 col-md-6 rtd">
+							<h4 class="text-center">Resources/Technologies:</h4>
 							<ul style="float:left;margin-left:0px">
 							  <li><p></p></li>
 							  <li><p></p></li>
 							  <li><p></p></li>
 							  <li><p></p></li>
 							</ul>
-							<ul style="float:right;margin-right:50px">
+							<ul class="ul2">
 							  <li><p></p></li>
 							  <li><p></p></li>
 							  <li><p></p></li>
 							  <li><p></p></li>
 							</ul>
-							<h4 style="position:absolute;top:180px">Role:</h4>
-							<p style="position:absolute;top:220px">Independent Project</p>
-							<h4 style="position:absolute;top:240px">Description:</h4>
-							<p style="position:absolute;top:290px"></p>
-							<h4 style="position:absolute;top:360px">Website:</h4>
-							<a href="http://" style="position:absolute;top:400px" target="_blank">ToVisit</a>
-						</div>
+							<h4 class="text-center" style="position:absolute;top:180px">Role:</h4>
+							<p class="text-center" style="position:absolute;top:220px">Independent Project</p>
+							<h4 class="text-center" style="position:absolute;top:240px">Description:</h4>
+							<p class="desc" style="position:absolute;top:290px"></p>
+							<h4 class="text-center" style="position:absolute;top:360px">Website:</h4>
+							<a class="liveSite" href="http://" target="_blank">ToVisit</a>
+						</section>
 					</div>
-				</div>
-			</div>
-			<div  id="Connect" class="col-xs-12 bg-con">
-				<div class="row">
-					<div class="email">
-						<h3 id="email">Send me an email</h3>
-<!-- 						<form> -->
-						  <div class="col-xs-12 form-group">
-						    <label for="inputName" class="col-xs-12 control-label">Name</label><br>
-						    <input type="text" id="inputName">
-						  </div>
-						  <div class="col-xs-12 form-group">
-						    <label for="inputEmail" class="col-xs-12 control-label">Email Address</label><br>
-						    <input type="text" id="inputEmail">
-						  </div>
-						  <div class="col-xs-12 form-group">
-						    <label for="inputSubject" class="col-xs-12 control-label">Subject</label><br>
-						    <input type="text" id="inputSubject">
-						  </div>
-						  <div class="col-xs-12 form-group">
-						    <label for="inputMessage" class="col-xs-12 control-label">Message</label><br>
-						    <textarea id="inputMessage"></textarea>
-						  </div>
-						  <a id="submit" href=""><button class="btn btn-default submit">Send</button></a>
-<!-- 						</form>	 -->
-  					</div>
-					<div class="follow">
-						<h3 id="follow" class="text-center" style="position:relative;right:20px">Follow Me</h3>
-						<a href="" target="_blank"><img class="sm" src="http://www.quickfix-plumbing.co.uk/images/linked.png"></a>
-						<a href="" target="_blank"><img class="sm" src="http://davetiyecim.org/uploads/images/facebook-2.png"></a>
-						<a href="" target="_blank"><img class="sm" src="http://educrafters.co.in/image/g_icon.png"></a>
-						<a href="" target="_blank"><img class="sm" src="http://i60.tinypic.com/2lldb4j.png"></a>
-					</div>
-				</div>
+				</section>				
+				<footer class="row bg-con">	
+					<section class="col-xs-12 col-md-6 email">
+<!-- 						<form id="email"> -->
+							<h3 id="etitle" class="text-center">Send me an email</h3>
+							<div class="form-group">
+								<label id="Name" for="inputName" class="control-label black">* Name</label>
+								<input type="text" id="inputName">
+							</div>
+							<div class="form-group">
+								<label id="Email" for="inputEmail" class="control-label black">* Email Address</label>
+								<input type="email" id="inputEmail">
+							</div>
+							<div class="form-group">
+								<label id="Subject" for="inputSubject" class="control-label inputSubject black">* Subject</label>
+								<input type="text" id="inputSubject">
+							</div>
+							<div class="form-group">
+								<label id="Message" for="inputMessage" class="control-label inputMessage black">* Message</label>
+								<textarea id="inputMessage" form="email"></textarea>
+							</div>
+							<a id="submit" href=""><button class="btn btn-default submit">Send</button></a>
+<!-- 						</form> -->
+						<h5 style="color:white;">* Required field</h5>
+					</section>
+					<section id="follow" class="col-xs-12 col-md-6 follow">
+						<h3 id="followtl" class="text-center">Follow Me</h3>
+						<ul class="list-inline">
+							<li><a href="https://www.linkedin.com/in/solcameron" target="_blank"><img id="in" class="sm" src="http://i58.tinypic.com/2nq5dac.png"></a>
+							<li><a href="https://twitter.com/SolJCam" target="_blank"><img id="tw" class="sm" src="http://i61.tinypic.com/34nfjnr.png"></a>
+							<li><a href="https://plus.google.com/u/1/" target="_blank" style="top:80px;position:relative"><img id="gg" class="sm" src="http://i60.tinypic.com/2e1aux5.png"></a>
+							<li><a href="https://profiles.generalassemb.ly/profiles/solcameron" target="_blank"><img id="ga" class="sm" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/6/s300/general-assembly-logo.png"></a>
+						</ul>
+					</section>
+					<h5 id="cr">Copyright 2015 Sol Cameron</h5>
+				</footer>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
+
+ <!-- I'm not easily discouraged and enjoy the challenge of hitting a roadblock and knocking it down with persistence. I envision myself building practical easy-to-use applications for either the workplace or the everyday individual. -->
