@@ -38,7 +38,7 @@ $(document).ready(function(){
 		}else if($('#inputSubject').val()==""){
 			e.preventDefault();
 			$("#inputSubject").css("border-color","red")
-			alert("Please provide a subject");	
+			alert("Please provide a subject");
 		}else if($('#inputMessage').val()==""){
 			e.preventDefault()
 			$("#inputMessage").css("border-color","red")
@@ -73,7 +73,7 @@ $(document).ready(function(){
 			$(".follow").css("top","-2410px");
 			$("#cr").css("top", "540px");
 		}
-		
+
 		$('#A').click(function(e){
 			e.preventDefault();
 			$('html,body').animate({scrollTop:223}, 215);
@@ -86,13 +86,13 @@ $(document).ready(function(){
 		$('#P').click(function(e){
 			e.preventDefault();
 			// hard-coding coordinates NOT a good idea
-			$('html,body').animate({scrollTop:833}, 300); 
+			$('html,body').animate({scrollTop:833}, 300);
 		})
 		$('#C').click(function(e){
 			e.preventDefault();
 			// this would be the proper way to do this were it not for the effects of parallax scrolling, minus the '- 1900'
 			remove()
-			$('html,body').animate({scrollTop:$(this.hash).offset().top - 1900}, 500);  
+			$('html,body').animate({scrollTop:$(this.hash).offset().top - 1900}, 500);
 		})
 
 	} else if (window.matchMedia('(min-width:480px) and (max-width: 767px)').matches) {
@@ -103,15 +103,15 @@ $(document).ready(function(){
 			$('html,body').animate({scrollTop:382}, 215);
 		})
 
-		$('#SE').click(function(){			
+		$('#SE').click(function(){
 			$('html,body').animate({scrollTop:577}, 215);
 		})
 
-		$('#Pj').click(function(){			
+		$('#Pj').click(function(){
 			$('html,body').animate({scrollTop:893}, 215);
 		})
 
-		$('#Cn').click(function(){			
+		$('#Cn').click(function(){
 			$('html,body').animate({scrollTop:1986}, 215);
 		})
 
@@ -133,8 +133,8 @@ $(document).ready(function(){
 	} else {
 
 		$('li[role=button]').toggle();
- 
-		$('#Ab').click(function(){	
+
+		$('#Ab').click(function(){
 			$('html,body').animate({scrollTop:310}, 215);
 		})
 
@@ -150,7 +150,7 @@ $(document).ready(function(){
 			$('html,body').animate({scrollTop:2363}, 215);
 		})
 // For some reason doesn't work when placed in stylesheet
-		$('.ul').css("margin", "0px");	
+		$('.ul').css("margin", "0px");
 	}
 
 
@@ -160,8 +160,8 @@ $(document).ready(function(){
 			var scrolled = $(window).scrollTop();
 			$('.parallax').css('top', 0 - scrolled);
 
-			if(scrolled >= 1850) { 
-    			window.scrollTo(0, 1860)
+			if(scrolled >= 1880) {
+    			window.scrollTo(0, 1875)
     		}
 
 			if ($(window).scrollTop() >= 55) {
@@ -181,7 +181,7 @@ $(document).ready(function(){
 				$('#Projects').fadeIn("slow");
 			}
 			if ($(window).scrollTop() >= 660) {
-				$('.p1').fadeIn("slow");	
+				$('.p1').fadeIn("slow");
 			}
 			if ($(window).scrollTop() >= 950) {
 				$('.p2').fadeIn("slow");
@@ -189,16 +189,16 @@ $(document).ready(function(){
 			if ($(window).scrollTop() >= 1290) {
 				$('.p3').fadeIn("slow");
 			}
-		
+
 
     	}else if (window.matchMedia('(min-width:480px) and (max-width: 767px)').matches) {
 
 			var scrolled = $(window).scrollTop();
-			$('.parallax').css('top', 100 - scrolled); 
-			
-			if(scrolled >= 1994) { 
+			$('.parallax').css('top', 100 - scrolled);
+
+			if(scrolled >= 1994) {
     			window.scrollTo(0, 2004)
-    		}			
+    		}
 
 			if ($(window).scrollTop() >= 255) {
 				$('#About').fadeIn("slow");
@@ -228,13 +228,13 @@ $(document).ready(function(){
 
 			if ($(window).scrollTop() >= 1630) {
 				$('.bg-con').fadeIn("slow");
-			}			   		
+			}
 
 		}else{
 			var scrolled = $(window).scrollTop();
 			$('.parallax').css('top', 0 - scrolled);
 
-			if(scrolled >= 2370) { 
+			if(scrolled >= 2370) {
     			window.scrollTo(0, 2375)
     		}
 
@@ -265,7 +265,7 @@ $(document).ready(function(){
 			}
 			if ($(window).scrollTop() >= 1940) {
 				$('.bg-con').fadeIn("slow");
-			}			
+			}
 		}
 	});
 
