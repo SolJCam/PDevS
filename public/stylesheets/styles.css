@@ -16,7 +16,7 @@ label {
 }
 
 h5 {
-    margin-left: 20px;	
+    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -35,7 +35,7 @@ h3.abt-txt.text-center {
 #mydevtype {
     color: #CCCCCC;
     position: relative;
-    top: 10px;
+    top: 51px;
 }
 
 #inputName, #inputEmail, #inputSubject,  #inputMEssage {
@@ -49,7 +49,7 @@ h3.abt-txt.text-center {
 
 #inputName {
     left: 23px;
-}	
+}
 
 #inputMessage {
 	height: 50px;
@@ -93,7 +93,10 @@ h3.abt-txt.text-center {
 
 .liveSite {
 	position:absolute;
-	top: 410px;
+}
+
+#WWls {
+	width: 300px;
 }
 
 .follow {
@@ -101,7 +104,7 @@ h3.abt-txt.text-center {
 	width: 71%;
 	position: relative;
 	left: 94px;
-	top: -3880px; 
+	top: -3880px;
 }
 
 .list-inline {
@@ -117,39 +120,39 @@ h3.abt-txt.text-center {
 }
 
 .rtd {
-	margin: 0px; 
+	margin: 0px;
 	top: -35px;
 	height: 175px;
 }
 
 .me {
-	height: 90px;
-	margin-top: 30px;
+	height: 100px;
+	margin-top: -20px;
 }
 
 .main {
 	background-color: black;
-	height: 3500px;
+	height: 3670px;
 }
 
 .image {
 	background-image: url(http://i61.tinypic.com/2mg7csh.png);
-	height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-	margin-left: -135px;
+	height: 310px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: -127px;
 	z-index: 1;
+	/* top: 163px; */
 }
 
 #myname {
 	position: relative;
-    top: 20px;
-    
+	top: 32px;
 	border: none;
 	-webkit-animation-name: myname; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-    animation-name: myname;
-    animation-duration: 1s;
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: myname;
+	animation-duration: 1s;
 }
 
 @keyframes myname {
@@ -167,7 +170,7 @@ h3.abt-txt.text-center {
     -webkit-animation-name: mydevtype; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
     animation-name: mydevtype;
-    animation-duration: 1s;	
+    animation-duration: 1s;
 }
 
 @keyframes mydevtype {
@@ -182,14 +185,15 @@ h3.abt-txt.text-center {
 }
 
 .btns {
-	left: 30px;
-	width: 85%; 
+	left: 52px;
+	width: 85%;
 	position: relative;
-	top: 20px;
-    -webkit-animation-name: btnlinks; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-    animation-name: btnlinks;
-    animation-duration: 1s;
+	top: 95px;
+	height: 55px;
+	-webkit-animation-name: btnlinks; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: btnlinks;
+	animation-duration: 1s;
 }
 
 @keyframes btnlinks {
@@ -203,13 +207,28 @@ h3.abt-txt.text-center {
     100%   {top:20px;}
 }
 
+
+#SkillsExperience {
+  position: relative;
+  top: -200px;
+}
+
 .btn-info {
 	margin-right: 5px;
 }
 
+.xp {
+  top: 45px;
+}
+
+#ed {
+  padding-top: 25px;
+}
+
 #Projects {
     position: relative;
-    top: 25px;
+    left: 14px;
+    width: 381px;
 }
 
 #lol-ul1-rtd {
@@ -280,6 +299,7 @@ h4.text-center {
 	height: 700px;
 	position: relative;
 	margin: 0px;
+  top: -150px;
 }
 
 .p {
@@ -296,37 +316,50 @@ h4.text-center {
   text-align: right;
 }
 
-.ip {
+/*.ip {
 	position:relative;
 	top:55px;
-	right: 60px;}
+	right: 60px;
+}*/
 
 .d {
-	position:relative;
-	top:60px;
+	position: absolute;
+	top: 235px;
+  left: 20px;
+  width: 373px;
 }
 
 .desc {
-	position:absolute;
-	top:270px;
+	position: absolute;
+	top: 280px;
 	margin-right:5px;
+}
+
+.ch {
+  left: 100px;
+}
+
+.lol {
+  left: 100px;
 }
 
 #WWR {
 	margin-left: 17px;
-	left: -45px;
-	width: 395px;
+	left: -9px;
+	width: 372px;
+  top:135px;
 }
 
 #WWRD {
-	top: 150px;
-	left: 10px;
+  position: absolute;
+	top: 203px;
+	right: 155px;
 }
 
 #lolR {
 	position: relative;
 	top: 160px;
-	right: 0px; 
+	right: 0px;
 	text-align: left;
 }
 
@@ -339,17 +372,17 @@ h4.text-center {
 #lolD {
 	position: relative;
 	top: 70px;
-	right: 0px; 
+	right: 0px;
 }
 
 #lolDD {
 	position: relative;
-	top: 65px; 
+	top: 65px;
 }
 
 #WebWW {
-	position:absolute;
-	top:370px;
+	position: absolute;
+	top: 395px;
 }
 
 #Webll {
@@ -359,7 +392,7 @@ h4.text-center {
 
 #WebCM {
 	position:absolute;
-	top:370px
+	top: 333px
 }
 
 #CMR {
@@ -376,13 +409,13 @@ h4.text-center {
 
 #CMD {
 	position:relative;
-	top: 15px;
+	top: 26px;
 	/* right:0px; */
 }
 
 #CMDD {
 	position:absolute;
-	top: 265px;
+	top: 280px;
 }
 
 .p1, .p2, .p3, .p4 {
@@ -396,21 +429,21 @@ h4.text-center {
 }
 
 .col-xs-12.p3 {
-    top: 450px;
+    top: 515px;
 }
 
 .col-xs-12.p2 {
-    top: 250px;
+    top: 315px;
 }
 
 .email {
-	top: -3890px; 
+	top: -3890px;
 	left: 15px;
 	width: 95%;
 }
 
 .bg-con {
-	top: 4520px; 
+	top: 2755px;
 	height: 600px;
 	width: 100%;
 	position: relative;
@@ -448,241 +481,239 @@ h4.text-center {
   width: device-width;
 }*/
 
-@media (min-width: 480px) and (max-width: 767px) {
+/*@media (min-width: 414px) and (max-width: 736px) {
 
-	h5 {
-		position: absolute;
-		top: 150px;
-		left: 370px;
-		width: 12em;
-	}
+  h5 {
+    position: absolute;
+    top: 150px;
+    left: 370px;
+    width: 12em;
+  }
 
-	.list-unstyled li {
-  		right: 230px;
-  		display: inline;
-  		position: relative;
-	}
+  .list-unstyled li {
+      right: 230px;
+      display: inline;
+      position: relative;
+  }
 
-	#cr {
-		width: 200px;
-		left: 60px;
-	}
+  #cr {
+    width: 200px;
+    left: 60px;
+  }
 
-	#inputEmail {
-		left: 20px;
-		top: -20px;
-	}
+  #inputEmail {
+    left: 20px;
+    top: -20px;
+  }
 
-	#inputSubject {
-		left: 20px;
-		top: -40px;
-	}
+  #inputSubject {
+    left: 20px;
+    top: -40px;
+  }
 
-	#ed {
-		margin-top: 25px;
-	}
+  #ed {
+    margin-top: 25px;
+  }
 
-	#ul1 {  	
-    	margin-left: 60px;
-	}
+  #ul1 {
+      margin-left: 60px;
+  }
 
-	.ul1 {
-		margin-left:100px;
-	}
+  .ul1 {
+    margin-left:100px;
+  }
 
-	.ul2 {
-		float: none;
-		margin-left: 380px;
-	}
+  .ul2 {
+    float: none;
+    margin-left: 380px;
+  }
 
-	.image {
-		margin-left: 0px;
-		height: 275px;
-	}
+  .image {
+    margin-left: 0px;
+    height: 275px;
+  }
 
-	.me {
+  .me {
+    margin-top: 0px;
+  }
 
-		margin-top: 0px;
-	}
+  .btns {
+    left: 175px;
+    top: 30px;
+    width: 50%;
+  }
 
-	.btns {
-		left: 175px;
-		top: 30px;
-		width: 50%;
-	}
+  .abt {
+    width: 650px;
+    height: 270px;
+  }
 
-	.abt {
-		width: 650px;
-		height: 270px;
-	}
+  .se {
+    width: 650px;
+    height: 650px;
+  }
 
-	.se {
-		width: 650px;
-		height: 650px;
-	}
+  #About {
+      width: 100%;
+  }
 
-	#About {
-    	width: 100%;
-	
-	}
+  #SkillsExperience {
+      width: 100%;
+  }
 
-	#SkillsExperience {
-    	width: 100%;
-	}
+  #Projects {
+      top: -25px;
+      width: 100%;
+  }
 
-	#Projects {
-	    top: -25px;	
-	    width: 100%;
-	}
+  .ul {
+    width: 150px;
+  }
 
-	.ul {
-		width: 150px;
-	}
+  .pic {
+    width: 280px;
+  }
 
-	.pic {
-		width: 280px;
-	}
+  .nav-titles {
+    width: 610px;
+  }
 
-	.nav-titles {
-		width: 610px;
-	}
+  .r {
+    top: 40px;
+    right: 100px;
+  }
 
-	.r {
-		top: 40px;
-		right: 100px;
-	}
+  .ip {
+    top: 40px;
+    right: 95px;
+  }
 
-	.ip {
-		top: 40px;
-		right: 95px;
-	}
+  .d {
+    top: 50px;
+    right: -15px;
+  }
 
-	.d {
-		top: 50px;
-		right: -15px;
-	}
+  .desc {
+    position: relative;
+    top: 50px;
+    width: 630px;
+  }
 
-	.desc {
-		position: relative;
-		top: 50px;
-		width: 630px;
-	}
+  #WWR {
+    text-align: left;
+    margin-left: -70px;
+    left: 70px;
+    width: 640px;
+  }
 
-	#WWR {
-		text-align: left;
-		margin-left: -70px;
-		left: 70px;
-		width: 640px;
-	}
+  #WWRD {
+    left: -110px;
+  }
 
-	#WWRD {
-		left: -110px;
-	}
+  #WWD {
+    left: 0px;
+  }
 
-	#WWD {
-		left: 0px;
-	}
+  #lol-ul1-rtd {
+    margin-left: 100px;
+  }
 
-	#lol-ul1-rtd {
-		margin-left: 100px;
-	}
+  #cm-rtd {
+    position: relative;
+    left: 250px;
+    width: 150px;
+  }
 
-	#cm-rtd {
-		position: relative;
-		left: 250px;	
-		width: 150px;
-	}
+  #lolR {
+    position: relative;
+    top: 20px;
+    width: 635px;
+    margin-left: -40px;
+    left: 40px;
+  }
 
-	#lolR {
-		position: relative;
-		top: 20px;
-		width: 635px;
-		margin-left: -40px;
-		left: 40px; 
-	}
+  #lolRD {
+    position: relative;
+    top: 20px;
+    left: 210px;
+    width: 30em;
+  }
 
-	#lolRD {
-		position: relative;
-		top: 20px;
-		left: 210px; 	
-		width: 30em;
-	}
+  #lolD {
+    position: relative;
+    top: 30px;
+  }
 
-	#lolD {
-		position: relative;
-		top: 30px;
-	}
+  #lolDD {
+    position: relative;
+    top: 30px;
+  }
 
-	#lolDD {
-		position: relative;
-		top: 30px;
-	}
+  .git {
+    right: 22px;
+  }
 
-	.git {
-		right: 22px;
-	}
+  .liveSite {
+      left: 15px;
+  }
 
-	.liveSite {
-  	  left: 15px;	
-	}
+  .p1 {
+    top:0px;
+  }
 
-	.p1 {
-		top:0px;
-	}
+  .col-xs-12.p2 {
+    top: 30px;
+  }
 
-	.col-xs-12.p2 {
-		top: 30px;
-	}
+  .col-xs-12.p3 {
+    top: 50px;
+  }
 
-	.col-xs-12.p3 {
-		top: 50px;
-	}
+  .email {
+    width: 50%
+  }
 
-	.email {
-		width: 50%
-	}
+  #Email {
+      top: -20px;
+  }
 
-	#Email {
-    	top: -20px;		
-	}
+  .inputEmail {
+    top: 20px
+  }
 
-	.inputEmail {
-		top: 20px
-	}
+  .inputSubject {
+    top: -40px;
+  }
 
-	.inputSubject {
-		top: -40px;
-	}
+  .inputMessage {
+    top: -65px;
+  }
 
-	.inputMessage {
-		top: -65px;
-	}
+  #inputMessage {
+    top: -65px;
+    left: 25px;
+  }
 
-	#inputMessage {
-		top: -65px;
-		left: 25px;
-	}
+  .submit {
+    position: relative;
+    top: -80px;
+    right: 0px;
+  }
 
-	.submit {
-		position: relative;
-		top: -80px;	
-		right: 0px;
-	}
+  .follow {
+    left: 78px;
+    width: 40%;
+  }
 
-	.follow {
-		left: 78px;	
-		width: 40%;
-	}
+  #etitle {
+    left: 25px;
+  }
 
-	#etitle {
-		left: 25px;
-	}
+  .bg-con {
+    height: 400px;
+  }
 
-	.bg-con {
-		height: 400px;
-	}
-
-}
+}*/
 
 /*@screen-desktop*/
 @media (min-width: 992px) {
@@ -731,20 +762,20 @@ h4.text-center {
 
 	#About {
 	    position: relative;
-	    top: 20px;	
+	    top: 20px;
 	    left: 125px;
 	    width: 80%;
 	}
 
 	#SkillsExperience {
-	    position: relative;	
+	    position: relative;
 	    top: 117px;
 	    left: 125px;
 	    width: 80%;
 	}
 
 	#Projects {
-	    position: relative;	
+	    position: relative;
 	    top: 210px;
 	    left: 60px;
 	    width: 90%;
@@ -761,7 +792,7 @@ h4.text-center {
 	#Message {
 		top: -60px;
 	}
-	
+
 	#submit {
 		width: 350px;
 	}
@@ -772,7 +803,7 @@ h4.text-center {
 	}
 
 	#tw {
- 		top: 30px;		
+ 		top: 30px;
  		margin-left: -10px;
 	}
 
@@ -806,18 +837,18 @@ h4.text-center {
 		top: -20px;
 	}
 
-	#inputSubject {	
+	#inputSubject {
     	top: -40px;
-	} 
+	}
 
 	#inputMessage {
     	top: -60px;
 	}
 
 	.list-unstyled li {
-		right: 230px;	
+		right: 230px;
 		display: inline;
-		position: relative;	
+		position: relative;
 	}
 
 	#followtl {
@@ -842,7 +873,7 @@ h4.text-center {
 		float: right;
 		width: 50%;
 		height: 525px;
-		position: relative;	
+		position: relative;
 		left: 0px;
 	}
 
@@ -938,11 +969,11 @@ h4.text-center {
 		margin-right: 0px;
 		left: 90px;
 	}
-	
+
 	.abt-txt {
 		position: relative;
-		left: 105px;  
-		width: 600px; 
+		left: 105px;
+		width: 600px;
 		top: 30px;
 	}
 
@@ -982,7 +1013,7 @@ h4.text-center {
 	}
 
 	#WWD {
-	    top: 170px;	
+	    top: 170px;
 	    width: 395px;
 	    left: 8px;
 	    margin-left: -35px;
@@ -993,7 +1024,7 @@ h4.text-center {
 	}
 
 	#WWrtd {
-    	top: -10px;	
+    	top: -10px;
 	}
 
 	#WWls {
@@ -1014,7 +1045,7 @@ h4.text-center {
 	}
 
 	.desc {
-		top: 300px;	
+		top: 300px;
 		width: 400px;
 	}
 
@@ -1040,7 +1071,7 @@ h4.text-center {
 	}
 
 	#lolD {
-  		top: 240px;	
+  		top: 240px;
   		left: -20px;
   		margin-left: 20px;
   		text-align: left;
@@ -1146,6 +1177,7 @@ h4.text-center {
 		width: 200px;
 		left: -820px;
 	}
+
 }
 
 
