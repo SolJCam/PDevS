@@ -1,0 +1,1188 @@
+body {
+	height: 2400px;
+	overflow-x: hidden;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+	background-color: black;
+	height: 2700px;
+}
+
+label {
+	color: white;
+	position: relative;
+	left: 25px;
+}
+
+h5 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h3.abt-txt.text-center {
+	font-family: 'Linden Hill', serif;
+  	margin-top: 65px;
+}
+
+#cr {
+	position: relative;
+	left: 80px;
+	color: darkgrey;
+	display: inline-block;
+}
+
+#mydevtype {
+    color: #CCCCCC;
+    position: relative;
+    top: 51px;
+}
+
+#inputName, #inputEmail, #inputSubject,  #inputMEssage {
+	margin-bottom: 20px;
+	height: 30px;
+	width: 300px;
+	border-radius: 5px;
+	border-style: solid;
+	position: relative;
+}
+
+#inputName {
+    left: 23px;
+}
+
+#inputMessage {
+	height: 50px;
+	width: 300px;
+	position: relative;
+	left: 23px;
+}
+
+#inputSubject {
+    left: 23px;
+}
+
+#inputEmail {
+    left: 23px;
+    top: 0px;
+}
+
+#followtl {
+	color: white;
+	position: relative;
+	width: 163px;
+	left: 10px;
+}
+
+#etitle {
+	position: relative;
+	color: white;
+}
+
+#gg {
+	top: -60px;
+	position: relative;
+}
+
+.sm {
+	height: 50px;
+	position: relative;
+	top: 20px;
+	border-radius: 30px;
+}
+
+.liveSite {
+	position:absolute;
+}
+
+#WWls {
+	width: 300px;
+}
+
+.follow {
+	height: 150px;
+	width: 71%;
+	position: relative;
+	left: 94px;
+	top: -3880px;
+}
+
+.list-inline {
+	position: relative;
+	right: 10%;
+	top: -10px;
+}
+
+.submit {
+	margin-top: 5px;
+	margin-left: 70px;
+	width: 200px;
+}
+
+.rtd {
+	margin: 0px;
+	top: -35px;
+	height: 175px;
+}
+
+.me {
+	height: 100px;
+	margin-top: -20px;
+}
+
+.main {
+	background-color: black;
+	height: 3670px;
+}
+
+.image {
+	background-image: url(http://i61.tinypic.com/2mg7csh.png);
+	height: 310px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: -127px;
+	z-index: 1;
+	/* top: 163px; */
+}
+
+#myname {
+	position: relative;
+	top: 32px;
+	border: none;
+	-webkit-animation-name: myname; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: myname;
+	animation-duration: 1s;
+}
+
+@keyframes myname {
+    0%  {top:150px;}
+    100%   {top:20px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myname {
+    0%  {top:150px;}
+    100%   {top:20px;}
+}
+
+#mydevtype {
+    -webkit-animation-name: mydevtype; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: mydevtype;
+    animation-duration: 1s;
+}
+
+@keyframes mydevtype {
+    0%  {top:200px;}
+    100%   {top:10px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mydevtype {
+    0%  {top:200px;}
+    100%   {top:10px;}
+}
+
+.btns {
+	left: 52px;
+	width: 85%;
+	position: relative;
+	top: 95px;
+	height: 55px;
+	-webkit-animation-name: btnlinks; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	animation-name: btnlinks;
+	animation-duration: 1s;
+}
+
+@keyframes btnlinks {
+    0%  {top:250px;}
+    100%   {top:20px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes btnlinks {
+    0%  {top:250px;}
+    100%   {top:20px;}
+}
+
+
+#SkillsExperience {
+  position: relative;
+  top: -200px;
+}
+
+.btn-info {
+	margin-right: 5px;
+}
+
+.xp {
+  top: 45px;
+}
+
+#ed {
+  padding-top: 25px;
+}
+
+#Projects {
+    position: relative;
+    left: 14px;
+    width: 381px;
+}
+
+#lol-ul1-rtd {
+	float:left;
+	margin-left:0px
+}
+
+#ul1 {
+	float:left;
+	margin-left:50px;
+	right:0px;
+}
+
+#ul2 {
+	float:right;
+	margin-right:50px;
+	left:-20px;
+}
+
+.ul1 {
+	float:left;
+	margin-left: -30px;
+}
+
+.ul {
+   width: 172px;
+   position: relative;
+   list-style-image: url('https://confluence.atlassian.com/s/en_GB/5790/c0d7e4b471d38961c3c7bcb02ff39a610accca23.27/_/images/icons/emoticons/star_yellow.png');
+}
+
+.ul2 {
+  float: right;
+  margin-right: 30px;
+  top: 0px;
+}
+
+.parallax {
+	margin-top: 38px;
+	height: 4520px;
+	position: relative;
+	background-color: white;
+}
+
+.one {
+	height: 700px;
+	background-color: #000000;
+}
+
+.nav-titles {
+	border-bottom: solid;
+	border-color: gainsboro;
+	border-width: 1px;
+	padding-right: 2px;
+}
+
+h4.text-center {
+	border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gainsboro;
+}
+
+.abt {
+	height: 500px;
+	position: relative;
+}
+
+.se {
+	height: 700px;
+	position: relative;
+	margin: 0px;
+  top: -150px;
+}
+
+.p {
+	height: 1440px;
+	position: relative;
+	left: 17px;
+	right: 0px;
+	top: 800px;
+}
+
+.r {
+  position: relative;
+  top: 130px;
+  text-align: right;
+}
+
+/*.ip {
+	position:relative;
+	top:55px;
+	right: 60px;
+}*/
+
+.d {
+	position: absolute;
+	top: 235px;
+  left: 20px;
+  width: 373px;
+}
+
+.desc {
+	position: absolute;
+	top: 280px;
+	margin-right:5px;
+}
+
+.ch {
+  left: 100px;
+}
+
+.lol {
+  left: 100px;
+}
+
+#WWR {
+	margin-left: 17px;
+	left: -9px;
+	width: 372px;
+  top:135px;
+}
+
+#WWRD {
+  position: absolute;
+	top: 203px;
+	right: 155px;
+}
+
+#lolR {
+	position: relative;
+	top: 160px;
+	right: 0px;
+	text-align: left;
+}
+
+#lolRD {
+	position: absolute;
+	top: 225px;
+	left: 80px;
+}
+
+#lolD {
+	position: relative;
+	top: 70px;
+	right: 0px;
+}
+
+#lolDD {
+	position: relative;
+	top: 65px;
+}
+
+#WebWW {
+	position: absolute;
+	top: 395px;
+}
+
+#Webll {
+	position: absolute;
+	top:380px;
+}
+
+#WebCM {
+	position:absolute;
+	top: 333px
+}
+
+#CMR {
+	position:relative;
+	top:10px;
+	right:0px;
+}
+
+#CMRD {
+	position:relative;
+	top:10px;
+	right:0px;
+}
+
+#CMD {
+	position:relative;
+	top: 26px;
+	/* right:0px; */
+}
+
+#CMDD {
+	position:absolute;
+	top: 280px;
+}
+
+.p1, .p2, .p3, .p4 {
+	height: 670px;
+	position: relative;
+	top: 50px;
+}
+
+.col-xs-12.p4 {
+    top: 650px;
+}
+
+.col-xs-12.p3 {
+    top: 515px;
+}
+
+.col-xs-12.p2 {
+    top: 315px;
+}
+
+.email {
+	top: -3890px;
+	left: 15px;
+	width: 95%;
+}
+
+.bg-con {
+	top: 2755px;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background-color: black;
+}
+
+.progress {
+	position: absolute;
+	bottom: -15px;
+	z-index: 1;
+}
+
+.propics {
+	display:inline-block;
+	top: -40px;
+}
+
+.pic {
+	height: 175px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.git {
+	height: 40px;
+	position: relative;
+	float: right;
+	border-bottom: solid;
+	border-color: black;
+	border-width: 1px;
+	bottom: 50px;
+}
+
+/*@-ms-viewport{
+  width: device-width;
+}*/
+
+/*@media (min-width: 414px) and (max-width: 736px) {
+
+  h5 {
+    position: absolute;
+    top: 150px;
+    left: 370px;
+    width: 12em;
+  }
+
+  .list-unstyled li {
+      right: 230px;
+      display: inline;
+      position: relative;
+  }
+
+  #cr {
+    width: 200px;
+    left: 60px;
+  }
+
+  #inputEmail {
+    left: 20px;
+    top: -20px;
+  }
+
+  #inputSubject {
+    left: 20px;
+    top: -40px;
+  }
+
+  #ed {
+    margin-top: 25px;
+  }
+
+  #ul1 {
+      margin-left: 60px;
+  }
+
+  .ul1 {
+    margin-left:100px;
+  }
+
+  .ul2 {
+    float: none;
+    margin-left: 380px;
+  }
+
+  .image {
+    margin-left: 0px;
+    height: 275px;
+  }
+
+  .me {
+    margin-top: 0px;
+  }
+
+  .btns {
+    left: 175px;
+    top: 30px;
+    width: 50%;
+  }
+
+  .abt {
+    width: 650px;
+    height: 270px;
+  }
+
+  .se {
+    width: 650px;
+    height: 650px;
+  }
+
+  #About {
+      width: 100%;
+  }
+
+  #SkillsExperience {
+      width: 100%;
+  }
+
+  #Projects {
+      top: -25px;
+      width: 100%;
+  }
+
+  .ul {
+    width: 150px;
+  }
+
+  .pic {
+    width: 280px;
+  }
+
+  .nav-titles {
+    width: 610px;
+  }
+
+  .r {
+    top: 40px;
+    right: 100px;
+  }
+
+  .ip {
+    top: 40px;
+    right: 95px;
+  }
+
+  .d {
+    top: 50px;
+    right: -15px;
+  }
+
+  .desc {
+    position: relative;
+    top: 50px;
+    width: 630px;
+  }
+
+  #WWR {
+    text-align: left;
+    margin-left: -70px;
+    left: 70px;
+    width: 640px;
+  }
+
+  #WWRD {
+    left: -110px;
+  }
+
+  #WWD {
+    left: 0px;
+  }
+
+  #lol-ul1-rtd {
+    margin-left: 100px;
+  }
+
+  #cm-rtd {
+    position: relative;
+    left: 250px;
+    width: 150px;
+  }
+
+  #lolR {
+    position: relative;
+    top: 20px;
+    width: 635px;
+    margin-left: -40px;
+    left: 40px;
+  }
+
+  #lolRD {
+    position: relative;
+    top: 20px;
+    left: 210px;
+    width: 30em;
+  }
+
+  #lolD {
+    position: relative;
+    top: 30px;
+  }
+
+  #lolDD {
+    position: relative;
+    top: 30px;
+  }
+
+  .git {
+    right: 22px;
+  }
+
+  .liveSite {
+      left: 15px;
+  }
+
+  .p1 {
+    top:0px;
+  }
+
+  .col-xs-12.p2 {
+    top: 30px;
+  }
+
+  .col-xs-12.p3 {
+    top: 50px;
+  }
+
+  .email {
+    width: 50%
+  }
+
+  #Email {
+      top: -20px;
+  }
+
+  .inputEmail {
+    top: 20px
+  }
+
+  .inputSubject {
+    top: -40px;
+  }
+
+  .inputMessage {
+    top: -65px;
+  }
+
+  #inputMessage {
+    top: -65px;
+    left: 25px;
+  }
+
+  .submit {
+    position: relative;
+    top: -80px;
+    right: 0px;
+  }
+
+  .follow {
+    left: 78px;
+    width: 40%;
+  }
+
+  #etitle {
+    left: 25px;
+  }
+
+  .bg-con {
+    height: 400px;
+  }
+
+}*/
+
+/*@screen-desktop*/
+@media (min-width: 992px) {
+
+	h5 {
+		position: absolute;
+		top: 525px;
+		left: 0px;
+	}
+
+ 	html {
+ 		height: 2400px;
+ 	}
+
+	h1 {
+		margin: 0px;
+	}
+
+	#etitle {
+		width: 440px;
+	}
+
+	label {
+		color: white;
+		left: -120px;
+	}
+
+	.btns {
+		left: 0px;
+	}
+
+	ul.center-block.nav.nav-pills {
+    	position: relative;
+    	left: 430px;
+	}
+
+	.exp {
+		margin-left: 25px;
+		width: 355px
+	}
+
+	#ed {
+		margin-left: 25px;
+		width: 355px
+	}
+
+	#About {
+	    position: relative;
+	    top: 20px;
+	    left: 125px;
+	    width: 80%;
+	}
+
+	#SkillsExperience {
+	    position: relative;
+	    top: 117px;
+	    left: 125px;
+	    width: 80%;
+	}
+
+	#Projects {
+	    position: relative;
+	    top: 210px;
+	    left: 60px;
+	    width: 90%;
+	}
+
+	#Email {
+		top: -20px;
+	}
+
+	#Subject {
+		top: -40px;
+	}
+
+	#Message {
+		top: -60px;
+	}
+
+	#submit {
+		width: 350px;
+	}
+
+	#in {
+		top: 30px;
+		left: 40px;
+	}
+
+	#tw {
+ 		top: 30px;
+ 		margin-left: -10px;
+	}
+
+	#gg {
+		top: -50px;
+		margin-left: 10px;
+	}
+
+	#ga {
+		top: 30px;
+		margin-left: 10px;
+	}
+
+	#inputMessage {
+		height: 150px;
+	}
+
+	#inputName, #inputEmail, #inputSubject, #inputMessage {
+		width: 400px;
+		border-radius: 5px;
+		border-style: solid;
+		left: -120px;
+	}
+
+	#inputName {
+    	top: 0px;
+	}
+
+	#inputEmail {
+		position: relative;
+		top: -20px;
+	}
+
+	#inputSubject {
+    	top: -40px;
+	}
+
+	#inputMessage {
+    	top: -60px;
+	}
+
+	.list-unstyled li {
+		right: 230px;
+		display: inline;
+		position: relative;
+	}
+
+	#followtl {
+		top: 10px;
+		left: 50px;
+	}
+
+	.two{
+		height: 2800px;
+	}
+
+	.submit {
+		position: relative;
+		left: -140px;
+		top: -60px;
+		width: 300px;
+		border-radius: 5px;
+		border-style: solid;
+	}
+
+	.email {
+		float: right;
+		width: 50%;
+		height: 525px;
+		position: relative;
+		left: 0px;
+	}
+
+	.follow {
+		float: left;
+		height: 300px;
+		width: 400px;
+		position: relative;
+		top: -10px;
+		left: 170px;
+	}
+
+	.form-group {
+		position: relative;
+		width: 350px;
+	}
+
+	.progress {
+		position: relative;
+		bottom: 0px;
+		margin-bottom: 0px
+	}
+
+	.nav-titles {
+		width: 100%;
+		float: left;
+		margin-top: 0px;
+	}
+
+	.me {
+		border-radius: 50px;
+		width: 100px;
+		height: 100px;
+		margin-top: 50px;
+		margin-left: 580px;
+	}
+
+	.main {
+		left: 0;
+		top: 0;
+		width: 1280px;
+		height: 2400px;
+		background-color: #000000;
+	}
+
+	.image {
+		background-image: url("http://i61.tinypic.com/2mg7csh.png");
+	    width: 1280px;
+	    height: 350px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    z-index: 1;
+	    margin-left: 0px;
+	}
+
+	.parallax {
+		margin-bottom: -550px;
+		height: 1700px;
+		width: 1280px;
+		position: relative;
+		background-color: white;
+	}
+
+	.one {
+		background-color: black;
+	}
+
+	.abt, .se {
+		height: 250px;
+		position: relative;
+		right: 100px;
+		top: 0px;
+	}
+
+	.se {
+		top: 150px;
+		height: 400px;
+		left: 210px;
+	}
+
+	.TitleSE {
+		width: 370px;
+		margin-left: 35px;
+	}
+
+	#ul1 {
+		width: 20px;
+		margin-left: 30px;
+	}
+
+	#ul2 {
+		width: 200px;
+		margin-right: 0px;
+		left: 90px;
+	}
+
+	.abt-txt {
+		position: relative;
+		left: 105px;
+		width: 600px;
+		top: 30px;
+	}
+
+	.skills {
+		float: left;
+		height: 330px;
+		left: -20px;
+	}
+
+	.xp {
+		height: 330px;
+	}
+
+	.p {
+		width: 1100px;
+		height: 1400px;
+		position: relative;
+		left: 90px;
+		right: 110px;
+		top: 860px;
+	}
+
+	.rtd {
+		height: 520px;
+		top: -40px;
+		float: right;
+		margin: 0px;
+	}
+
+	#WWRT {
+		width: 392px;
+		margin-left: -25px;
+	}
+
+	#WWul2 {
+		margin-right: -40px;
+	}
+
+	#WWD {
+	    top: 170px;
+	    width: 395px;
+	    left: 8px;
+	    margin-left: -35px;
+	}
+
+	#WWDD {
+		left: -10px;
+	}
+
+	#WWrtd {
+    	top: -10px;
+	}
+
+	#WWls {
+		left: -5px;
+	}
+
+	.r {
+		top: 150px;
+	}
+
+	.ip {
+		top: 85px;
+	}
+
+	.d {
+		top: 120px;
+		left: 10px;
+	}
+
+	.desc {
+		top: 300px;
+		width: 400px;
+	}
+
+	#WebWW {
+		position:absolute;
+		top:450px;
+		left: -5px;
+	}
+
+	.liveSite {
+		position: absolute;
+		top: 490px;
+	}
+
+	#lolR {
+  		top: 180px;
+  		width: 380px;
+	}
+
+	#lolRD {
+  		top: 250px;
+  		left: 100px;
+	}
+
+	#lolD {
+  		top: 240px;
+  		left: -20px;
+  		margin-left: 20px;
+  		text-align: left;
+  		width: 380px;
+	}
+
+	#lolDD {
+  		top: 140px;
+  		display: inline-block;
+	}
+
+	#Webll {
+    	top: 450px;
+	}
+
+	#CMR {
+		position:relative;
+		top: 20px;
+		right:0px;
+	}
+
+	#CMRD {
+		position:relative;
+		top: 20px;
+		right:0px;
+	}
+
+	#CMD {
+		position:relative;
+		top: 50px;
+		right:0px;
+	}
+
+	#CMDD {
+		position:absolute;
+		top: 300px;
+	}
+
+	#WebCM {
+		position:absolute;
+		top:450px
+	}
+
+	.p1, .p2, .p3, .p4 {
+		height: 550px;
+		position: relative;
+		top: 320px;
+		bottom: 80px;
+	}
+
+	.col-xs-12.p2 {
+		top: 460px;
+	}
+
+	.col-xs-12.p3 {
+		top: 600px;
+	}
+
+	.p4 {
+		top: -780px;
+		bottom: 100px;
+	}
+
+	.bg-con {
+		height: 580px;
+		width: 100%;
+		position: relative;
+		left: 15px;
+		background-color: black;
+	}
+
+	.propics {
+		top: 0px;
+	}
+
+	.pic {
+		width: 400px;
+		height: 250px;
+		margin-left: 0px;
+	}
+
+	.git {
+		height: 35px;
+		width: 30px;
+		bottom: 5px;
+	}
+
+	.sm {
+		left: 60px;
+	}
+
+	[role~=button] {
+		margin-bottom: 5px;
+	}
+
+	[data-toggle~=tooltip] {
+		float: right;
+		position: relative;
+		bottom: 40px;
+	}
+
+	#cr {
+		width: 200px;
+		left: -820px;
+	}
+
+}
+
+
+
+
+
+
+
